@@ -1,8 +1,11 @@
 body{
-        font-family: "Poppins", sans-serif;
-        font-weight: 400;
-        font-style: normal;
-      }
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
 h1{
-    font-size: 50px;
+font-size: 50px;
+}
+.author_name{
+  color: rgb(255, 230, 0);
 }
