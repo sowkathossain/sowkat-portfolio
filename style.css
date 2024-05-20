@@ -1,11 +1,53 @@
-body{
+body {
   font-family: "Poppins", sans-serif;
   font-weight: 400;
   font-style: normal;
+  margin: 0;
 }
-h1{
-font-size: 50px;
+
+h1 {
+  font-size: 50px;
 }
-.author_name{
+
+.flex-area {
+  display: flex;
+}
+
+.hero_area {
+  background-image: url(images/top-banner.png);
+  background-repeat: no-repeat;
+}
+
+.author_name,
+.sub-heading {
   color: rgb(255, 230, 0);
+}
+
+.author_title,
+.author_image {
+  width: 50%;
+  padding-left: 5%;
+}
+
+.author_image img {
+  width: 100%;
+}
+
+.hire_button {
+  text-decoration: none;
+  background-image: linear-gradient(orange, tomato);
+  padding: 10px 30px;
+  color: #fff;
+  border-radius: 5px;
+  font-weight: 700;
+}
+
+.dream_area {
+  background-image: url(images/dream-bg.png);
+  background-position: right;
+  background-repeat: no-repeat;
+}
+
+.experience-title {
+  display: block;
 }
